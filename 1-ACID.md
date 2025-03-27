@@ -50,6 +50,16 @@ This property ensures that modifications and updates on the database will be per
 It means that if a transaction is committed, the changes made to the database will not be lost even if the database is shut down or the system fails. 
 
  
+## Advantages of ACID properties in DBMS
+
+- **Data  Consistency: **ACID properties ensure that the data remains consistent and accurate after any transaction execution.
+
+- **Data Integrity:**  ACID properties maintain the integrity of the data by ensuring that any changes to the database are permanent and cannot be lost.
+
+- **Concurrency Control:** ACID properties help multiple transactions occurring concurrently by preventing interference between them.
+
+- **Recovery:** ACID properties ensure that in case of any failure or crash, the system can recover the data up to the point of failure or crash.
+
 
 
 
