@@ -64,3 +64,15 @@ It means that if a transaction is committed, the changes made to the database wi
 
 
 
+## Disadvantages of ACID properties in DBMS
+
+- **Performance:** ACID properties can lead to performance issues due to the additional task involved in implementing integrity and concurrency control.
+
+- **Scalability:** ACID properties can make cause scalability issues in large distributed systems where multiple transactions can occur concurrently.
+
+- **Complexity:** Implementing ACID properties to a database can cause complexity of the system and requires additional resources and tools.
+
+
+## Conclusion
+
+ACID properties involves four properties, Atomicity, Consistency, Isolation and Durability. **Atomicity** ensures that that the transaction is rolled back if any part fails. **Consistency** ensures the database remains consistent before and after the transaction. **Isolation** ensures that one transaction does not affect another one. **Durability** Ensures that the the database persist even after the system failure
