@@ -2,7 +2,7 @@
 
 ACID Transaction (Atomicity, Consistency, Isolation, Durability)
 
-### Transcation
+### Transaction
 - Any poeration that is treated as a single unit, which either completes fully or does not complete at all and leaves system in a consistent state. 
 
 #### Example
